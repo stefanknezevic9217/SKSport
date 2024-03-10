@@ -1,0 +1,833 @@
+/*za sve*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 22px;
+}
+a{
+	text-decoration: none;
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.okvir{
+    width: 1200px;
+    margin: 0 auto;
+}
+#sadrzaj{
+    min-height: 71vh;
+}
+/*za sve*/
+/*heder*/
+#logo{
+    width:30%;
+    color: black;
+}
+#linije{
+    display: none;
+}
+#meni{
+    width:70%;
+}
+nav{
+    height: 70px;
+}
+nav a{
+    color:black;
+}
+nav{
+    background-color: #f5d10d ;
+}
+.ikonice i{
+    font-size: 27px;
+}
+#logout{
+    padding: 3px;
+    border: 2px solid black;
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+}
+/*heder*/
+/*futer*/
+#footer{
+    background-color: #f5d10d;
+    color:black;
+}
+.proba ul li a{
+    color: black;
+}
+#linija p{
+    text-align: center;
+}
+#linija{
+    border-top:2px solid black;
+    height: 40px;
+}
+.proba{
+    height: 200px;
+    flex-wrap: wrap;
+    width: 30%;
+    align-items: center;
+}
+.proba h2,#kontakt-forma h2,#prodavnice h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.proba li{
+    margin-top:10px;
+}
+
+/*futer*/
+
+/*home*/
+#slika-tekst img{
+    width:60%;
+}
+#slika-tekst p{
+    width: 39%;
+}
+#sadrzaj{
+    padding-bottom: 40px;
+    background-color: black;
+}
+#slika-tekst,#zasto-wrap,.izdvajamo{
+    color:#f5d10d;
+}
+#zasto-wrap>p,.izdvajamo>p,#onama-tekst h2{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    margin: 40px 0;
+}
+#zasto-wrap{
+    flex-wrap: wrap;
+}
+.prednosti{
+    width: 30%;
+}
+.prednosti p{
+    margin:20px 0;
+}
+.prednosti i{
+    width: 100%;
+    text-align: center;
+    font-size: 84px;
+}
+.prepruke img{
+    width: 90%;
+}
+.prepruke{
+    border:2px solid #f5d10d;
+    width: 21%;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    margin-top: 40px;
+
+}
+.prepruke a{
+    width:70%;
+    background-color: #f5d10d;
+    text-align: center;
+    color: black;
+    margin: 20px 20px;
+    height: 27px;
+}
+.popust{
+    width: 50%;
+    text-align: center;
+    background-color: red;
+
+}
+.popust-centar{
+    margin:0 auto;
+}
+.prepruke p{
+    margin-top: 10px;
+    text-align: center;
+}
+.izdvajamo{
+    flex-wrap: wrap;
+}
+.naziv-patike,.brend-naziv {
+    width: 100% ;
+
+}
+.brend-naziv{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#error{
+    color:yellow;
+    text-align: center;
+    padding-top:200px;
+}
+#tabela-porudzbine{
+    text-align: center;
+}
+
+
+/*home*/
+
+/*proizvodi*/
+#paginacija{
+    width:200px;
+
+    margin:30px auto;
+}
+.trenutna{
+    border: 2px solid yellow;
+}
+#paginacija li{
+    padding: 10px;
+}
+
+#ispis{
+    width: 100%;
+    height: 70vh;
+    align-items: center;
+}
+
+.popust-wrap{
+    width:100%;
+}
+
+#autor-tekst{
+    padding: 20px;
+}
+#autor-blok{
+    align-items: center;
+}
+#proizvodi,#onama-tekst,#kontakt-forma,#prodavnice,#autor-tekst{
+    color: #f5d10d;
+
+}
+#proizvodi h1{
+    padding:5px 0;
+    border-bottom: 2px solid #f5d10d;
+}
+#side{
+    color:#f5d10d;
+    width: 16%;
+}
+#proizvodi{
+    width: 84%;
+    min-height: 80vh;
+}
+.filter-naziv{
+    margin-top: 15px;
+}
+.filter-naziv i{
+    margin-right: 10px;
+}
+.filter-naziv li{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.filter-naziv label{
+    margin-left: 10px;
+}
+.filter-naziv ul{
+    display: none;
+}
+#cene input,#filter-pretraga,#sortiranje-shoe{
+    width: 42%;
+    height: 27px;
+    border-radius: 7px;
+    padding-left: 4px;
+    border: 2px solid black;
+}
+#cene,#filter-pretraga,#sortiranje-shoe{
+    margin-top: 11px;
+    width: 90%;
+}
+.dugme{
+    width: 50%;
+padding: 7px;
+background-color: #f5d10d;
+border: 1px solid #f5d10d;
+border-radius: 5px;
+color: black;
+font-size: 16px;
+margin-top: 25px;
+}
+
+
+
+
+/*proizvodi*/
+
+/*onama*/
+#onama-slika,#onama-slika img{
+    width: 100%;
+}
+#onama-tekst{
+    padding: 10px;
+}
+/*onama*/
+
+/*kontakt*/
+#zaAdmin,#emailAdmin{
+    width: 90%;
+
+    border-radius:5px;
+    color:black;
+    padding: 10px;
+    margin-top: 20px;
+}
+#zaAdmin{
+height: 35px;
+}
+#emailAdmin{
+height: 130px;
+}
+#kontakt-forma{
+    padding-top: 40px;
+}
+#prodavnice{
+    flex-wrap: wrap;
+}
+#prodavnice h2{
+    margin: 40px 0;
+}
+.prodavnica{
+    width: 300px;
+    margin:10px;
+}
+#pregled{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+}
+.lista{
+    width: 30%;
+}
+
+
+
+/*kontakt*/
+
+
+/*registracija*/
+#greske,#greskeLog{
+    color:red;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+}
+#forma-registracija{
+    color: #f5d10d;
+    width: 100%;
+}
+#desno,#levo{
+    width: 45%;
+    flex-wrap: wrap;
+}
+.polje>input,#grad,.polje > select{
+    width: 60%;
+}
+.polje{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+#formRegistracija{
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+#button1{
+    margin-top: 70px;
+}
+#formRegistracija h2{
+    color: #f5d10d;
+    font-size: 56px;
+    margin: 30px 0;
+}
+
+
+/*registracija*/
+
+
+
+/*Proizvod*/
+#velicine-naslov{text-align: center;}
+#add-cart{margin: 20px auto;
+    display: block;}
+#proizvod-1{
+    color:#f5d10d;
+    align-items: center;
+}
+.izbor-velicine{
+    background-color: yellow;
+    color:black;
+}
+#proizvod-1 img,#proizvod-info{
+    width: 45%;
+}
+#proizvod-info h2{
+    font-size: 40px;
+    text-align: center;
+    margin:54px 0
+}
+#proizvod-info span{
+    margin-top: 10px;
+}
+#p-info{
+    width: 50%;
+    margin: 0 auto;
+}
+.velicina{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border:2px solid #f5d10d;
+    font-size: 12px;
+    text-align: center;
+    line-height:27px ;
+}
+#p-cena{
+    text-align: center;
+    font-size: 35px;
+    margin: 35px;
+}
+#velicine{
+    margin-top:20px;
+}
+
+
+
+
+/*Proizvod*/
+
+
+
+/*korpa*/
+
+#korpa{
+    padding: 0 10px;
+}
+
+table{
+    color: white;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+#tabela-korpa{
+    min-width: 678px;
+}
+#tabela-porudzbine{
+    min-width: 495px;
+}
+
+#korpa h1{
+    padding-top:40px;
+
+    color: #f5d10d;
+}
+#korpa{
+    width: 100%;
+}
+#tabela-korpa tr,#tabela-porudzbine tr{
+
+    height: 100px;
+    border-bottom: 2px solid #f5d10d;
+
+
+}
+#tabela-korpa img{
+    width: 90px;
+}
+
+#tabela-korpa td{
+    text-align: center;
+}
+#korpa input,#dugme-unos{
+    display: block;
+    margin:25px auto;
+}
+#korpa p{
+    color: #f5d10d;
+    margin:25px;
+    text-align: center;
+}
+#korpa-prazna{
+    color: black;
+    background-color: #f5d10d;
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+    height: 400px;
+}
+.providna-stavka{
+    opacity: 0.2;
+
+}
+
+
+
+
+
+
+/*korpa*/
+
+
+
+
+/*log in prozor*/
+
+#log-prozor{
+    color: #f5d10d;
+    width: 40%;
+    position: fixed;
+    background-color: black;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    z-index: 3;
+    display: none;
+
+}
+#log-prozor p,#log-prozor a{
+    width: 100%;
+    text-align: center;
+    color: #f5d10d;
+}
+#log-prozor a{
+    font-size: 12px;
+    margin-top: 20px;
+}
+#user,#log-pass{
+    width: 70%;
+    height: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#forma-logovanje{
+    flex-wrap: wrap;
+    padding-bottom:40px;
+}
+#iks{
+    margin:7px;
+    display: flex;
+justify-content: end;
+}
+
+#prozirno{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 0.5;
+    z-index: 2;
+    top:0;
+    display: none;
+}
+
+/*log in prozor*/
+
+
+
+
+/*adminpanel*/
+#dropBlok{
+    display: none;
+}
+#tabela-porudzbine  img{
+    width: 75px;
+}
+.dugme-ikonica{
+    font-size: 25px;
+}
+#tabela-porudzbine tr td>input,.dugme-ikonica{
+    margin:0 auto;
+    display: block;
+}
+#side-Admin{
+    width: 200px;
+    min-width: 150px;
+    border-right: 2px solid #f5d10d;
+    margin-right: 20px;
+}
+#admin-pregled{
+
+    width: 82%;
+    padding-top: 20px;
+}
+#side-Admin i{
+    margin-right: 10px;
+}
+#side-Admin li{
+    margin-top: 10px;
+
+}
+#side-Admin a,#admin-wrap{
+    color: #f5d10d;
+}
+
+#dropDugme{
+    margin: 0;
+}
+#dropBlok p{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 20px;
+}
+#kolicina,#velicina{
+    width: 80px;
+}
+
+
+
+/*adminpanel*/
+
+
+
+
+
+
+
+/*responsive*/
+
+@media screen and (max-width: 1200px) {
+
+
+	nav{
+        padding: 0 20px;
+    }
+    .okvir{
+        width: 100%;
+    }
+    #zasto-wrap{
+        padding: 0 20px;
+    }
+    #forma-registracija,#forma-dodaj{
+        justify-content: space-around;
+    }
+    .polje > input, #grad,.polje > select {
+        width: 55%;
+      }
+
+}
+@media screen and (max-width: 900px) {
+    #side-Admin{
+        text-align: center;
+        border: 0;
+        width:100% ;
+    }
+    #side-Admin ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    #admin-wrap{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #proizvod-1{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #proizvod-1 img, #proizvod-info {
+        width: 51%;
+      }
+    #pregled .prepruke{
+        width: 30%;
+    }
+    #side{
+        width: 25%;
+    }
+    #forma-registracija,#forma-dodaj{
+        display: block;
+
+    }
+    #levo, #desno{
+        width: 90%;
+
+margin: 0 auto;
+    }
+
+}
+@media screen and (max-width: 777px) {
+
+
+	#slika-tekst p{
+        font-size:16px;
+    }
+
+}
+@media screen and (max-width: 687px) {
+
+    #log-prozor{
+        width: 60%;
+    }
+
+	#proizvod-1 img, #proizvod-info {
+        width: 75%;
+      }
+	nav{
+        height: auto;
+    }
+	#linije{
+        display: block;
+    }
+    #meni{
+        display: none;
+    }
+    #predlozi .prepruke{
+        width: 45%;
+    }
+    #proba{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #meni{
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .prednosti{
+        width: 90%;
+text-align: center;
+margin-bottom: 39px;
+    }
+    #footer-wrap{
+        font-size: 15px;
+    }
+    #pregled .prepruke{
+        width: 45%;
+    }
+    #side{
+        width:35%;
+    }
+    #proizvodi{
+        width: 65%;
+    }
+    .prodavnica{
+        text-align: center;
+    }
+    #prodavnice{
+        justify-content: space-around;
+    }
+
+}
+@media screen and (max-width: 467px) {
+
+    #proizvod-1 img, #proizvod-info {
+  width: 100%;
+}
+    .polje{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .polje > input, #grad,.polje > select {
+        width: 80%;
+        height: 27px;
+        margin-top: 20px;
+    }
+    #forma-registracija label,#insertForma label{
+        width: 100%;
+        text-align: center;
+    }
+    #side-proizvodi{
+        flex-wrap: wrap;
+    }
+    #side {
+        width: 100%;
+      }
+    .filter{
+
+            width: 137px;
+            margin: 0 auto;
+
+    }
+
+    #slika-tekst p{
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #slika-tekst img{
+        width: 90%;
+    }
+    #slika-tekst{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #predlozi .prepruke{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+
+	#meni ul{
+        flex-wrap: wrap;
+    }
+    #meni ul li{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #footer-wrap > div{
+        width: 90%;
+        height: 150px;
+    }
+    #footer-wrap{
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 20px;
+        justify-content: space-around;
+    }
+    #pregled .prepruke {
+        width: 90%;
+      }
+    #proizvodi{
+    width: 100%;
+    }
+    #pregled .prepruke{
+        margin:10px auto;
+    }
+    #side input[type="button"]{
+        display: block;
+        margin:20px auto;
+    }
+    #velicina{
+        margin-top: 20px;
+    }
+    #side-Admin ul{
+        margin:20px 0;
+        display: block;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+/*responsive*/
