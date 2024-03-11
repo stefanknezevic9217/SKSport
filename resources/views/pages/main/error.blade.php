@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('title')Greška@endsection
+@section('title') Greška @endsection
 @section('keyword')@endsection
 @section('description')@endsection
 @section('content')

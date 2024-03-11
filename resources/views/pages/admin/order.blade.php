@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('title')Order@endsection
+@section('title') Order @endsection
 @section('keyword')@endsection
 @section('description')@endsection
 @section('content')

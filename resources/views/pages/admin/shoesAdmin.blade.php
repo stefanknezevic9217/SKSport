@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@section('title')Pregled@endsection
+@section('title') Pregled @endsection
 @section('keyword')@endsection
 @section('description')@endsection
 @section('content')

@@ -1,6 +1,6 @@
 @extends('layouts.layout')
-@section('title')Registracija@endsection
-@section('keyword')SKSport, patike, prodavnica@endsection
+@section('title') Registracija @endsection
+@section('keyword') SKSport, patike, prodavnica @endsection
 @section('description')@endsection
 @section('content')
 <div id="sadrzaj">

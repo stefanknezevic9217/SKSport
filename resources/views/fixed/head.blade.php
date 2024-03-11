@@ -1,9 +1,9 @@
 <head>
     <link rel="shortcut icon" href="{{asset('assets/img/ikonica.ico')}}"/>
     <meta charset="UTF-8"/>
-    <title>SKSport-@yield('title')</title>
-    <meta name="keywords" content="@yield('keyword')"/>
-    <meta name="description" content="@yield('description')"/>
+    <title>SKSport- @yield('title') </title>
+    <meta name="keywords" content=" @yield('keyword') "/>
+    <meta name="description" content=" @yield('description') "/>
     <meta name="author" content="Stefan Knežević"/>
     <meta name="language" content="sr"/>
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">

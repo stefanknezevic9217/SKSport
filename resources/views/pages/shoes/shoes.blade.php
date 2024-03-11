@@ -1,7 +1,7 @@
 @extends('layouts.layout')
-@section('title')Patike@endsection
-@section('keyword')SKSport, patike, prodavnica@endsection
-@section('description')SKSport je vodeci maloprodajni prodavac sportske obuce.@endsection
+@section('title') Patike @endsection
+@section('keyword') SKSport, patike, prodavnica @endsection
+@section('description') SKSport je vodeci maloprodajni prodavac sportske obuce. @endsection
 @section('content')
     <div id="sadrzaj">
         <div id="side-proizvodi" class="okvir between">
