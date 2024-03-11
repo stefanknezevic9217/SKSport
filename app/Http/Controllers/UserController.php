@@ -14,7 +14,7 @@ class UserController extends BasicController
         public function store(RegistrationRequest $request){
             try{
 
-                $user=User::insertGetId([
+                $user=User::create([
                     "name"=>$request->ime,
                     "last_name"=>$request->prezime,
                     "email"=>$request->email,
@@ -24,7 +24,8 @@ class UserController extends BasicController
                     "gender_id"=>$request->pol,
                     "role_id"=>2
                 ]);
-                Cart::create(["user_id"=>$user]);
+                Cart::create(["user_id"=>$user->id]);
+                return response()->json([],200);
 
             }catch(\Exception $e){
                 return response()->json(["Doslo je do greske"], 500);
@@ -51,7 +52,7 @@ class UserController extends BasicController
 
         public function logout(){
             Auth::logout();
-            return redirect()->back();
+            return redirect()->route("home");
         }
 
 }
